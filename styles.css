@@ -1,0 +1,23 @@
+:root {
+    /* colors */
+    --text-color: black;
+    --app-background-color: lightblue;
+
+}
+
+body {
+    background-color: var(--app-background-color);
+    color: var(--text-color);
+}
+
+.main_box {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    row-gap: 5px;
+    color: var(--text-color);
+    font-family:  serif;
+}
